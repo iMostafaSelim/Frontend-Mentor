@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Frontend Mentor Templates" />
+    <meta name="keywords" content="Frontend Mentor, Templates" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <meta name="author" content="Mostafa Selim" />
+    <title>Frontend Mentor Templates</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #ddd;
+        color: black;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        min-height: 100vh;
+      }
+      main {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 1.5rem;
+        padding: 1rem;
+      }
+      .template-link {
+        background-color: #fff;
+        border: 2px solid #fff;
+        border-radius: 1.5rem;
+        color: inherit;
+        text-align: center;
+        text-decoration: none;
+        padding: 1rem;
+        line-height: 1.5;
+        transition: all 200ms ease;
+      }
+      .template-link:hover {
+        border-color: #77f;
+      }
+      .template-link img {
+        max-width: 100%;
+        margin-bottom: 0.75rem;
+        border-radius: 1rem;
+      }
+      .template-link span {
+        display: block;
+        font-size: 1.25em;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 80%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <a
+        href="./templates/qr-code-component"
+        class="template-link"
+        title="Frontend Mentor | QR code component"
+      >
+        <img
+          src="./images/Screenshot 2024-03-11 at 21-07-02 Frontend Mentor QR code component.png"
+          alt="Frontend Mentor | QR code component"
+        />
+        <span>Frontend Mentor | QR code component</span>
+      </a>
+    </main>
+  </body>
+</html>
